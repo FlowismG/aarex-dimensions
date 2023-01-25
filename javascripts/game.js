@@ -412,14 +412,14 @@ function updateNewPlayer(reseted) {
 		money: new Decimal(modesChosen.ngmm>2?200:modesChosen.ngp>1?20:10),
 		tickSpeedCost: new Decimal(1000),
 		tickspeed: new Decimal(modesChosen.ngp>1?500:1000),
-		firstCost: new Decimal(10),
-		secondCost: new Decimal(100),
-		thirdCost: new Decimal(10000),
-		fourthCost: new Decimal(1000000),
-		fifthCost: new Decimal(1e9),
-		sixthCost: new Decimal(1e13),
-		seventhCost: new Decimal(1e18),
-		eightCost: new Decimal(1e24),
+		firstCost: new Decimal(1e1),
+		secondCost: new Decimal(1e2),
+		thirdCost: new Decimal(1e3),
+		fourthCost: new Decimal(1e4),
+		fifthCost: new Decimal(1e8),
+		sixthCost: new Decimal(1e12),
+		seventhCost: new Decimal(1e16),
+		eightCost: new Decimal(1e20),
 		firstAmount: new Decimal(0),
 		secondAmount: new Decimal(0),
 		thirdAmount: new Decimal(0),
@@ -1567,7 +1567,7 @@ function updateCoinPerSec() {
 	var element = document.getElementById("coinsPerSec");
 	var ret = getDimensionProductionPerSecond(1)
 	if (player.pSac !== undefined) ret = ret.div(getEC12Mult())
-	element.textContent = 'You are getting ' + shortenND(ret) + ' antimatter per second.'
+	element.textContent = 'You are getting ' + shortenND(ret) + ' Lightning per second.'
 }
 
 var clickedAntimatter
