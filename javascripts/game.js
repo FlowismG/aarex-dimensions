@@ -5543,28 +5543,28 @@ function preBreakProgess(){
 	var p = Math.min((Decimal.log10(player.money.plus(1)) / Decimal.log10(getLimit()) * 100), 100).toFixed(2) + "%"
 	document.getElementById("progressbar").style.width = p
 	document.getElementById("progresspercent").textContent = p
-	document.getElementById("progresspercent").setAttribute('ach-tooltip',"Percentage to Infinity")
+	document.getElementById("progresspercent").setAttribute('ach-tooltip',"Percentage to ???")
 }
 
 function infDimProgress(){
 	var p = Math.min(player.money.e / getNewInfReq().money.e * 100, 100).toFixed(2) + "%"
 	document.getElementById("progressbar").style.width = p
 	document.getElementById("progresspercent").textContent = p
-	document.getElementById("progresspercent").setAttribute('ach-tooltip',"Percentage to next dimension unlock")
+	document.getElementById("progresspercent").setAttribute('ach-tooltip',"Percentage to next Affinity Dimension unlock")
 }
 
 function currentEChallengeProgress(){
 	var p = Math.min(Decimal.log10(player.infinityPoints.plus(1)) / player.eternityChallGoal.log10() * 100, 100).toFixed(2) + "%"
 	document.getElementById("progressbar").style.width = p
 	document.getElementById("progresspercent").textContent = p
-	document.getElementById("progresspercent").setAttribute('ach-tooltip',"Percentage to Eternity Challenge goal")
+	document.getElementById("progresspercent").setAttribute('ach-tooltip',"Percentage to Cloudy Challenge goal")
 }
 
 function preEternityProgress(){
 	var p = Math.min(Decimal.log10(player.infinityPoints.plus(1)) / Decimal.log10(Number.MAX_VALUE)  * 100, 100).toFixed(2) + "%"
 	document.getElementById("progressbar").style.width = p
 	document.getElementById("progresspercent").textContent = p
-	document.getElementById("progresspercent").setAttribute('ach-tooltip',"Percentage to Eternity")
+	document.getElementById("progresspercent").setAttribute('ach-tooltip',"Percentage to Cloudlise")
 }
 
 function r128Progress(){
@@ -5585,7 +5585,7 @@ function gainTPProgress(){
 	var p = (getDilGain().log10() / player.dilation.totalTachyonParticles.log10()).toFixed(2) + "%"
 	document.getElementById("progressbar").style.width = p
 	document.getElementById("progresspercent").textContent = p
-	document.getElementById("progresspercent").setAttribute('ach-tooltip','Percentage to the requirement for tachyon particle gain')
+	document.getElementById("progresspercent").setAttribute('ach-tooltip','Percentage to the requirement for Time Particle gain')
 }
 
 function ngpp13Progress(){

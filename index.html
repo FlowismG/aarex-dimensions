@@ -3,9 +3,9 @@
 <html>
 
 <head>
-	<title>Aarex Dimensions: <var id = coinAmount>EROR</span> Lightning</title>
+	<title>Aarex Dimensions</title>
 	<link rel="icon" type="image/png" href="icon.png">
-	<meta name="Antimatter Dimensions" content="A game about huge numbers and watching them go up." charset="utf-8"/>
+	<meta name="Aarex Dimensions" content="A game based on that one thread from the NO! server." charset="utf-8"/>
 	<script type="text/javascript" src="javascripts/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="javascripts/notify.js"></script>
 	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css?12">
@@ -63,7 +63,7 @@
 				You have <span id='GHPAmount'>0</span> Ghost Particles.<br>
 				<div id="quantumedBM">Quantumed <span id='quantumedBMAmount'>0</span> times</div>
 			</div>
-			<button id="bigripbtn" class="bigripbtn" onclick="bigRip()">I want to complete the impossible challenge... I want to Big Rip the universe.</button>
+			<button id="bigripbtn" class="bigripbtn" onclick="bigRip()">I want to complete the challenge... I want to Rip the universe.</button>
 			<button id="ghostifybtn" class="ghostifybtn" onclick="ghostify()">
 				<div id="ghostifybtnFlavor" class="hideEmpty"></div>
 				<div id="GHPGain" class="hideEmpty"></div>
@@ -745,7 +745,7 @@
 						<td class="milestoneText">25 Eternities:</td>
 					</tr>
 					<tr>
-						<td><button class="milestonerewardlocked" id="reward16">You keep your Break Infinity upgrades on Eternity</button></td>
+						<td><button class="milestonerewardlocked" id="reward16">You keep your Assure Affinity upgrades on Eternity</button></td>
 						<td><button class="milestonerewardlocked" id="reward17">You automatically unlock Affinity Dimensions upon reaching their requirements</button></td>
 					</tr>
 					<tr>
@@ -823,9 +823,9 @@
 						</td>
 					</tr>
 				</table>
-				<p>You have <span id="dilatedTimeAmount" style="font-size:35px; color: black">0</span>ATTM Power. <span id="dilatedTimePerSecond" style="font-size:25px; color: black">0</span></p>
-				<p>Next <span id="freeGalaxyMult">ATTM Galaxy</span> at <span id="galaxyThreshold" style="font-size:25px; color: black">1000</span>ATTM Power, gained total of <span id="dilatedGalaxies" style="font-size:25px; color: black">0</span></p>
-				<button id="rebuyupgmax" style="width:210px; height: 30px; font-size: 12px" onclick="maxAllDilUpgs()" class="storebtn">Max all ATTM Upgrades</button>
+				<p>You have <span id="dilatedTimeAmount" style="font-size:35px; color: black">0</span> Time-Machine Power. <span id="dilatedTimePerSecond" style="font-size:25px; color: black">0</span></p>
+				<p>Next <span id="freeGalaxyMult">Temporal Galaxy</span> at <span id="galaxyThreshold" style="font-size:25px; color: black">1000</span> Time-Machine Power, gained total of <span id="dilatedGalaxies" style="font-size:25px; color: black">0</span></p>
+				<button id="rebuyupgmax" style="width:210px; height: 30px; font-size: 12px" onclick="maxAllDilUpgs()" class="storebtn">Max all Time-Machine Upgrades</button>
 				<button id="rebuyupgauto" style="width:210px; height: 30px; font-size: 12px" onclick="toggleAutoEter('rebuyupg')" class="storebtn"></button>
 				<button id="dilUpgsauto" style="width:240px; height: 30px; font-size: 12px" onclick="toggleAutoEter('dilUpgs')" class="storebtn"></button>
 				<button id="distribEx" style="width:180px; height: 30px; font-size: 12px" onclick="distribEx()" class="storebtn">Distribute ex-dilation</button>
@@ -876,7 +876,7 @@
 							<button id="dil22" onclick="buyDilationUpgrade(22)">Cloud Dimensions are affected by replicanti multiplier ^ 0.1.<br><span id="dil22cost"></span></button>
 						</td>
 						<td>
-							<button id="dil23" onclick="buyDilationUpgrade(23)">Aarex Dimensions gain a multiplier based on ATTM Power, unaffected by the time travel penalty.<br><span id="dil23cost"></span></button>
+							<button id="dil23" onclick="buyDilationUpgrade(23)">Aarex Dimensions gain a multiplier based on Time-Machine Power, unaffected by the time travel penalty.<br><span id="dil23cost"></span></button>
 						</td>
 						<td>
 							<button id="dil25" onclick="buyDilationUpgrade(25)">Gain twice as many ATTM Galaxies again.<br><span id="dil25cost"></span></button>
@@ -973,7 +973,7 @@
 							<button id="dil63" onclick="buyDilationUpgrade(63)">Boost the ex-dilation gain.<br><span id="dil63cost"></span></button>
 						</td>
 						<td id="n8">
-							<button id="dil64" onclick="buyDilationUpgrade(64)" style='font-size:10px'>Buff the black hole upgrade effect based on your Eternity points.<br><span id="dil64desc"></span><br><span id="dil64cost"></span></button>
+							<button id="dil64" onclick="buyDilationUpgrade(64)" style='font-size:10px'>Buff the black hole upgrade effect based on your Cloudy Points.<br><span id="dil64desc"></span><br><span id="dil64cost"></span></button>
 						</td>
 						<td>
 							<button id="dil65" onclick="buyDilationUpgrade(65)" style='font-size:10px'>You gain more ATTM Power based on your meta-antimatter.<br><span id="dil65desc"></span><br><span id="dil65cost"></span></button>
@@ -1011,24 +1011,24 @@
 						</tr>
 						<tr>
 							<td>
-								<button id="breakUpg1" class="eternityupbtnlocked" onclick="buyBreakUpg(1)">Boost the first 4 Time Dimensions based on your Eternity Points and Eternal Matter.<br>Currently: <span id="breakUpg1Mult">1.0</span>x<br>Cost: <span id="breakUpg1Cost"></span> Eternal Matter</button>
+								<button id="breakUpg1" class="eternityupbtnlocked" onclick="buyBreakUpg(1)">Boost the first 4 Time Dimensions based on your Cloudy Points and Eternal Matter.<br>Currently: <span id="breakUpg1Mult">1.0</span>x<br>Cost: <span id="breakUpg1Cost"></span> Eternal Matter</button>
 							</td>
 							<td>
-								<button id="breakUpg2" class="eternityupbtnlocked" onclick="buyBreakUpg(2)">Divide the normal galaxy cost based on your Eternity Points.<br>Currently: <span id="breakUpg2Mult">1.0</span>x cheaper<br>Cost: <span id="breakUpg2Cost"></span> Eternal Matter</button>
+								<button id="breakUpg2" class="eternityupbtnlocked" onclick="buyBreakUpg(2)">Divide the normal galaxy cost based on your Cloudy Points.<br>Currently: <span id="breakUpg2Mult">1.0</span>x cheaper<br>Cost: <span id="breakUpg2Cost"></span> Eternal Matter</button>
 							</td>
 							<td>
-								<button id="breakUpg3" class="eternityupbtnlocked" onclick="buyBreakUpg(3)">You gain more Space Shards based on your Eternity Points.<br>Currently: <span id="breakUpg3Mult">1.0</span>x<br>Cost: <span id="breakUpg3Cost"></span> Eternal Matter</button>
+								<button id="breakUpg3" class="eternityupbtnlocked" onclick="buyBreakUpg(3)">You gain more Space Shards based on your Cloudy Points.<br>Currently: <span id="breakUpg3Mult">1.0</span>x<br>Cost: <span id="breakUpg3Cost"></span> Eternal Matter</button>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<button id="breakUpg4" class="eternityupbtnlocked" onclick="buyBreakUpg(4)">Boost Time Dimensions 4 - 6 based on your Eternity Points and Space Shards.<br>Currently: <span id="breakUpg4Mult">1.0</span>x<br>Cost: <span id="breakUpg4Cost"></span> Eternal Matter</button>
+								<button id="breakUpg4" class="eternityupbtnlocked" onclick="buyBreakUpg(4)">Boost Time Dimensions 4 - 6 based on your Cloudy Points and Space Shards.<br>Currently: <span id="breakUpg4Mult">1.0</span>x<br>Cost: <span id="breakUpg4Cost"></span> Eternal Matter</button>
 							</td>
 							<td>
-								<button id="breakUpg5" class="eternityupbtnlocked" onclick="buyBreakUpg(5)">Boost the tickspeed reduction based on your Eternity Points and Time Shards.<br>Currently: <span id="breakUpg5Mult">1.0</span>x<br>Cost: <span id="breakUpg5Cost"></span> Eternal Matter</button>
+								<button id="breakUpg5" class="eternityupbtnlocked" onclick="buyBreakUpg(5)">Boost the tickspeed reduction based on your Cloudy Points and Time Shards.<br>Currently: <span id="breakUpg5Mult">1.0</span>x<br>Cost: <span id="breakUpg5Cost"></span> Eternal Matter</button>
 							</td>
 							<td>
-								<button id="breakUpg6" class="eternityupbtnlocked" onclick="buyBreakUpg(6)">You gain more Space Shards based on your Eternity Points and Eternal Matter.<br>Currently: <span id="breakUpg6Mult">1.0</span>x<br>Cost: <span id="breakUpg6Cost"></span> Eternal Matter</button>
+								<button id="breakUpg6" class="eternityupbtnlocked" onclick="buyBreakUpg(6)">You gain more Space Shards based on your Cloudy Points and Eternal Matter.<br>Currently: <span id="breakUpg6Mult">1.0</span>x<br>Cost: <span id="breakUpg6Cost"></span> Eternal Matter</button>
 							</td>
 						</tr>
 						<tr id="breakUpgR3">
@@ -1039,7 +1039,7 @@
 								<button id="breakUpg9" class="eternityupbtnlocked" onclick="buyBreakUpg(9)">Divide the Normal Galaxy cost in Eternity Challenge 10 based on your Eternal Matter.<br>Currently: /<span id="breakUpg9Mult">???</span><br>Cost: <span id="breakUpg9Cost"></span> Eternal Matter</button>
 							</td>
 							<td>
-								<button id="breakUpg10" class="eternityupbtnlocked" onclick="buyBreakUpg(10)">Eternity Points multiply the normal galaxy amount in "Intergalactic" in Dilation runs.<br>Currently: <span id="breakUpg10Mult">???</span>x<br>Cost: <span id="breakUpg10Cost"></span> Eternal Matter</button>
+								<button id="breakUpg10" class="eternityupbtnlocked" onclick="buyBreakUpg(10)">Cloudy Points multiply the normal galaxy amount in "Intergalactic" in Dilation runs.<br>Currently: <span id="breakUpg10Mult">???</span>x<br>Cost: <span id="breakUpg10Cost"></span> Eternal Matter</button>
 							</td>
 						</tr>
 						<tr id="breakUpgRS">
@@ -1047,7 +1047,7 @@
 								<button class="eternityupbtn" onclick="eternity()">Eternal Matter: <span id="eterShortcutEM"></span><br>Start a normal Eternity run.</button>
 							</td>
 							<td>
-								<button class="eternitychallengestudy" onclick="startEC10()" style="width: 190px; height: 90px; margin: 0">Eternity Points: <span id="eterShortcutEP"></span><br>Start Eternity Challenge 10.</button>
+								<button class="eternitychallengestudy" onclick="startEC10()" style="width: 190px; height: 90px; margin: 0">Cloudy Points: <span id="eterShortcutEP"></span><br>Start Eternity Challenge 10.</button>
 							</td>
 							<td>
 								<button class="dilationupg" onclick="startDilatedEternity(false, true)" style="width: 190px; height: 90px; margin: 0">Tachyon particles: <span id="eterShortcutTP"></span><br>Dilate time.</button>
@@ -1056,7 +1056,7 @@
 						<tr>
 							<td></td>
 							<td>
-								<button id="breakUpg7" class="eternityupbtnlocked" onclick="buyBreakUpg(7)">You gain <span id="breakUpg7MultIncrease"></span>x more Eternity Points.<br>Currently: <span id="breakUpg7Mult">1</span>x<br>Cost: <span id="breakUpg7Cost"></span> Eternal Matter</button><br><button class="storebtn" style="width: 190px" onclick="maxBuyBEEPMult()">Max EP mult</button>
+								<button id="breakUpg7" class="eternityupbtnlocked" onclick="buyBreakUpg(7)">You gain <span id="breakUpg7MultIncrease"></span>x more Cloudy Points.<br>Currently: <span id="breakUpg7Mult">1</span>x<br>Cost: <span id="breakUpg7Cost"></span> Eternal Matter</button><br><button class="storebtn" style="width: 190px" onclick="maxBuyBEEPMult()">Max EP mult</button>
 							</td>
 							<td></td>
 						</tr>
@@ -2963,7 +2963,7 @@
 						</td>
 						<td>
 							<div class= "challengediv">
-								<span style="font-size: 110%">Each Aarex Dimension costs the Dimension 2 tiers before it (excluding the 1st and 2nd Dimensions), with modified Aarexial Shift and Aarex Galaxy prices.</span>
+								<span style="font-size: 110%">Each Aarex Dimension costs the Dimension 2 tiers before it (excluding the 1st and 2nd Dimensions), with modified Aarexial Shift and Aarexese Galaxy prices.</span>
 								<br>
 								<br>
 
@@ -2993,7 +2993,7 @@
 						</td>
 						<td>
 							<div class= "challengediv">
-								<span style="font-size: 110%">Aarexial Boosts and Aarex Galaxies have no effect. Sacrifice will reset Aarex Dimensions, but it's extremely buffed.</span>
+								<span style="font-size: 110%">Aarexial Boosts and Aarexese Galaxies have no effect. Sacrifice will reset Aarex Dimensions, but it's extremely buffed.</span>
 								<br>
 								<br>
 
@@ -3802,7 +3802,7 @@
 						<tr>
 							<td><button class='gluonupgrade unavailablebtn' id="bigripupg13" onclick='buyBigRipUpg(13)'>Replicantis boost Time Dimensions at a greatly reduced rate.<br>Cost: <span id="bigripupg13cost"></span> Space Shards</button></td>
 							<td><button class='gluonupgrade unavailablebtn' id="bigripupg14" style='font-size: 10px' onclick='buyBigRipUpg(14)'>TS101 is stronger based on your Space Shards while outside of dilation runs.<br>Currently: ^<span id="bigripupg14current">1.00</span><br>Cost: <span id="bigripupg14cost"></span> Space Shards</button></td>
-							<td><button class='gluonupgrade unavailablebtn' id="bigripupg15" style='font-size: 10px' onclick='buyBigRipUpg(15)'>Eternity Points make the Distant Antimatter Galaxies scaling start later.<br>Currently: +<span id="bigripupg15current">0</span><br>Cost: <span id="bigripupg15cost"></span> Space Shards</button></td>
+							<td><button class='gluonupgrade unavailablebtn' id="bigripupg15" style='font-size: 10px' onclick='buyBigRipUpg(15)'>Cloudy Points make the Distant Antimatter Galaxies scaling start later.<br>Currently: +<span id="bigripupg15current">0</span><br>Cost: <span id="bigripupg15cost"></span> Space Shards</button></td>
 							<td><button class='gluonupgrade unavailablebtn' id="bigripupg16" style='font-size: 10px' onclick='buyBigRipUpg(16)'>ATTM Power boosts the Seventh Time Dimension.<br>Currently: <span id="bigripupg16current">1.00</span>x<br>Cost: <span id="bigripupg16cost"></span> Space Shards</button></td>
 						</tr>
 					</table>
@@ -3921,7 +3921,7 @@
 				</tr>
 				<tr>
 					<td>
-						<button id="galaxy51" class="infinistorebtn1" onclick="buyGalaxyUpgrade(51)">Galaxy points boost Eternity points.<br>Currently: <span id='galspan51'>?</span>x<br>Cost: <span id='galcost51'>1e4500</span> GP</button>
+						<button id="galaxy51" class="infinistorebtn1" onclick="buyGalaxyUpgrade(51)">Galaxy points boost Cloudy Points.<br>Currently: <span id='galspan51'>?</span>x<br>Cost: <span id='galcost51'>1e4500</span> GP</button>
 					</td>
 					<td>
 						<button id="galaxy52" class="infinistorebtn2" onclick="buyGalaxyUpgrade(52)">Reduce the galaxy softcap of Galaxy points gain formula.<br>Cost: <span id='galcost52'>1e5500</span> GP</button>
@@ -3965,7 +3965,7 @@
 			<tr>
 				<td><button class="secondarytabbtn" onclick="showInfTab('preinf')">Upgrades</button><td>
 				<td><button id="autobuyersbtn" class="secondarytabbtn" onclick="showInfTab('autobuyers')">Autobuyers</button><td>
-				<td><button id="postinfbtn" class="secondarytabbtn" onclick="showInfTab('postinf')" >Break Infinity</button><td>
+				<td><button id="postinfbtn" class="secondarytabbtn" onclick="showInfTab('postinf')" >Assure Affinity</button><td>
 				<td><button id="replicantitabbtn" class="secondarytabbtn" onclick="showInfTab('replicantis')">Replicantis</button><td>
 				<td><button id="singularitytabbtn" class="secondarytabbtn" onclick="showInfTab('singularity')">Singularity</button><td>
 				<td><button id="dimtechstabbtn" class="secondarytabbtn" onclick="showInfTab('dimtechs')">Dim-techs</button><td>
@@ -4417,7 +4417,7 @@
 				<table id="breaktable" class="table" style="margin: 0 auto; padding-left: 8px">
 					<tr>
 						<td>
-							<button id="break" class="infinistorebtn2" onclick="breakInfinity()" ach-tooltip="Cost multipliers post-infinity will begin increasing faster, but so will the Infinity Point gain">BREAK INFINITY</button>
+							<button id="break" class="infinistorebtn2" onclick="breakInfinity()" ach-tooltip="By clicking this button, you will go past the limits of 1.8e308 Lightning.">Assure Affinity.</button>
 						</td>
 					</tr>
 				</table>
@@ -4822,7 +4822,7 @@
 					<td id='rgupg8col'><button id='rgupg8' onclick='buyGluonUpg("rg",8)'>Red unstable quarks decay slower based on your RG gluons.<br><span id='rgupg8current'></span><br>Cost: <span id='rgupg8cost'></span> RG gluons</button></td>
 					<td id='gbupg7col' colspan=2><button id='gbupg7' onclick='buyGluonUpg("gb",7)'>Infinity Points slow down the Remote Antimatter Galaxy scaling.<br><span id='gbupg7current'></span><br>Cost: <span id='gbupg7cost'></span> GB gluons</button></td>
 					<td id='gbupg8col'><button id='gbupg8' onclick='buyGluonUpg("gb",8)'>Green unstable quarks decay slower based on your GB gluons.<br><span id='gbupg8current'></span><br>Cost: <span id='gbupg8cost'></span> GB gluons</button></td>
-					<td id='brupg7col' colspan=2><button id='brupg7' onclick='buyGluonUpg("br",7)'>Eternity Points slow down the Remote Antimatter Galaxy scaling.<br><span id='brupg7current'></span><br>Cost: <span id='brupg7cost'></span> BR gluons</button></td>
+					<td id='brupg7col' colspan=2><button id='brupg7' onclick='buyGluonUpg("br",7)'>Cloudy Points slow down the Remote Antimatter Galaxy scaling.<br><span id='brupg7current'></span><br>Cost: <span id='brupg7cost'></span> BR gluons</button></td>
 					<td id='brupg8col'><button id='brupg8' onclick='buyGluonUpg("br",8)'>Blue unstable quarks decay slower based on your BR gluons.<br><span id='brupg8current'></span><br>Cost: <span id='brupg8cost'></span> BR gluons</button></td>
 				</tr><tr><td colspan=6>
 					Current QK gain multiplier: <span id='qkmultcurrent'></span>x

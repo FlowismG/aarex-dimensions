@@ -781,7 +781,7 @@ function updateChallTabDisplay(){
 }
 
 function eterPoints2Display(){
-	document.getElementById("eternityPoints2").innerHTML = "You have <span class=\"EPAmount2\">"+shortenDimensions(player.eternityPoints)+"</span> Eternity points."
+	document.getElementById("eternityPoints2").innerHTML = "You have <span class=\"EPAmount2\">"+shortenDimensions(player.eternityPoints)+"</span> Cloudy Points."
 }
 
 function eternityBtnDisplayType(){

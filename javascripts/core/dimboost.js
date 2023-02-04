@@ -165,7 +165,7 @@ function maxBuyDimBoosts(manual) {
 }
 
 function getShiftRequirement(bulk) {
-	let amount = 20
+	let amount = 40 + (player.resets * 10)
 	let mult = getDimboostCostIncrease()
 	var resetNum = player.resets + bulk
 	var maxTier = inNC(4) || player.pSac != undefined ? 6 : 8
@@ -191,7 +191,7 @@ function getShiftRequirement(bulk) {
 }
 
 function getDimboostCostIncrease () {
-	let ret = 15
+	let ret = 10
 	if (player.aarexModifications.ngmX > 3) ret += 5
 	if (player.currentChallenge=="postcngmm_1") return ret
 	if (player.galacticSacrifice) {

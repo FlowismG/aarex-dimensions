@@ -274,7 +274,6 @@ function ngP3AchieveCheck(){
 	if (masteryStudies.bought >= 48) giveAchievement("The Theory of Ultimate Studies")
 	if (ranking >= 165) giveAchievement("Pulling an All-Nighter")
 	if (ranking >= 190) giveAchievement("Not-so-very-challenging") 
-	if (tmp.pcc.normal >= 24) giveAchievement("The Challenging Day")
 	if (speedrunMilestonesReached >= 24) giveAchievement("And the winner is...")
 	if (speedrunMilestonesReached >= 28) giveAchievement("Special Relativity")
 	if (tmp.qu.best <= 10) giveAchievement("Quantum doesn't take so long")

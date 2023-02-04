@@ -7,10 +7,10 @@ function breakInfinity() {
 	if (!canBreakInfinity()) return false
 	if (player.break && !player.currentChallenge.includes("post")) {
 		player.break = false
-		document.getElementById("break").textContent = "BREAK INFINITY"
+		document.getElementById("break").textContent = "Assure Affinity."
 	} else {
 		player.break = true
-		document.getElementById("break").textContent = "FIX INFINITY"
+		document.getElementById("break").textContent = "Affinity Assured"
 	}
 	if (player.galacticSacrifice) if (player.eternities == 0 && player.infinityPoints.lt(Number.MAX_VALUE) && !quantumed) {
 		document.getElementById("quantumBlock").style.display=player.break?"":"none"
